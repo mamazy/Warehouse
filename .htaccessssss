@@ -1,0 +1,8 @@
+
+AuthUserFile ".htpasswd"
+AuthType Basic
+AuthName "My Secret Page"
+
+<Files "idex.php">
+  Require valid-user
+</Files>
